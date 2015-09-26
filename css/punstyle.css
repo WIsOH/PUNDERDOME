@@ -7,7 +7,6 @@
     text-align: center;
 }
 
-
 .center {
     position:relative;
     /* transform: translateY(300%); /*get rid of this once list is added, should auto drop to bottom*/
@@ -17,4 +16,9 @@
     border:3px;
     padding-top: 10px;
     
+}
+
+#about{
+    display:block;
+    text-align: center;
 }
