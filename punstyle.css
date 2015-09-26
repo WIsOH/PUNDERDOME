@@ -3,14 +3,18 @@
     font-size: 100px;
 }
 
-.navbar-form navbar-left{
+.subtitle{
     text-align: center;
-
 }
 
+
 .center {
+    position:relative;
+    /* transform: translateY(300%); /*get rid of this once list is added, should auto drop to bottom*/
     margin: auto;
+    clear:both;
     width: 40%;
     border:3px;
-    padding: 10px;
+    padding-top: 10px;
+    
 }
