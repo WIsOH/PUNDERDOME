@@ -38,6 +38,11 @@
     font-size: 100px;
 }
 
+.egglets{
+    color:azure;
+    text-align: center;
+}
+
 .delay{
     -webkit-animation-delay: 1.5s;
     animation-delay: 1.5s;
