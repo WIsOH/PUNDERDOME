@@ -37,3 +37,13 @@
     text-align: center;
     font-size: 100px;
 }
+
+.delay{
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+.longdelay{
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
