@@ -10,21 +10,7 @@ ignore = ['i', 'a', 'an', 'the']
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-	if request.method == 'GET':
-		array = random.choice(phrases).split(" ")
-		while(True):
-			temp = random.choice(array)
-			if temp in ignore:
-				continue
-			else:
-				x = 0
-				for y in range(0, len(array)):
-					if array[y] == temp:
-						x = y
-						break
-			
-			#array[x] would be changed
-				
+	if request.method == 'GET':				
 		return render_template('index.html')
 	elif request.method == 'POST':
 		return render_template('index.html', genpun=random.choice(phrases))
