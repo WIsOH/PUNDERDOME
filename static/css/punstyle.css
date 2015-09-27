@@ -62,10 +62,14 @@
 }
 
 .generated_pun{
-    height:120px;
+    height:80px;
     font-size:40px;
 }
 
 #easter{
     color:#C7C7C7;   
+}
+
+#auto_gen{
+    margin-bottom: 50px;
 }
