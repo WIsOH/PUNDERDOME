@@ -20,9 +20,8 @@ def index():
 				x = 0
 				for y in range(0, len(array)):
 					if array[y] == temp:
-						x = y;
-						break;
-				break
+						x = y
+						break
 			
 			#array[x] would be changed
 				
