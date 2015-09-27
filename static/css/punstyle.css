@@ -3,6 +3,10 @@
     font-size: 100px;
 }
 
+.space{
+    padding-bottom: 20px;   
+}
+
 .subtitle{
     text-align: center;
 }
@@ -51,4 +55,11 @@
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
 }
+.longerdelay{
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
 
+.generated_pun{
+    height:120px;
+}

@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <link href="../static/slate.css" type="text/css" rel="stylesheet">
-        <link href="../static/punstyle.css" type="text/css" rel="stylesheet">
-        <link href="../static/animate.css" type="text/css" rel="stylesheet">
+        <link href="../static/css/slate.css" type="text/css" rel="stylesheet">
+        <link href="../static/css/punstyle.css" type="text/css" rel="stylesheet">
+        <link href="../static/css/animate.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <h1 class="title animated fadeInDown">WELCOME TO THE</h1>
-        <h1 class="title animated fadeInUp">PUNDERDOME</h1>
+        <h1 class="title space animated fadeInUp">PUNDERDOME</h1>
         <center>
             <form method="post" class="center animated fadeInUp delay" role="search">
+                <input type="submit" value="ENTER THE PUNDERDOME" class="btn btn-default btn-lg" id="auto_gen" name="auto_gen">
+            </form>
+            <div id="container" class="generated_pun">
+                <!--auto generated random pun here-->
+            </div>
+            <h1 class="longdelay animated fadeIn">OR</h1>
+            <form method="post" class="center animated fadeInUp longdelay" role="search">
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Pun me!" id="pun_me" name="pun_me">
                 </div>
                 <input type="submit" value="Punch me!" class="btn btn-default" >
             </form>
-			<a href="about" class="center animated fadeIn longdelay" id="about" >About Punderdome</a>
+			<a href="about" class="center animated fadeIn longdelay longerdelay" id="about" >About Punderdome</a>
         </center>
         
     </body>
