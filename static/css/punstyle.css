@@ -9,6 +9,7 @@
 
 .subtitle{
     text-align: center;
+    font-size: 70px;
 }
 
 .center {
@@ -62,4 +63,8 @@
 
 .generated_pun{
     height:120px;
+}
+
+#easter{
+    color:#C7C7C7;   
 }
